@@ -1,5 +1,5 @@
 # Currency Exchange Manager
-An easy to use currency exchange manager implemented in various programming languages.
+An easy to use currency exchange manager implemented in Python.
 
 ## Requirements -
 - This program uses forex-python to gather currency data. Please install the package.
