@@ -58,7 +58,7 @@ def main():
 			"\tDisplay Exchange Rate - [D/d]\n"
 			"\tDisplay All Rates - [DA/da]\n"
 			"\tQuit - [Q/q]\n")
-		inp = raw_input("Input - ").upper()
+		inp = raw_input("Input - ").upper().strip()
 		if(inp == "C"):
 			inputCountry = raw_input("Enter Origin Country: ")
 			outputCountry = raw_input("Enter Target Country: ")
